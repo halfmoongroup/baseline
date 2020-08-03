@@ -26,7 +26,7 @@ CounterTest >> testDecrement [
 	
 ]
 
-{ #category : #tests }
+{ #category : #test }
 CounterTest >> testIncrement [
 	counter increment. 
 	self assert: counter countValue equals: 1

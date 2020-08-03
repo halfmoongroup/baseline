@@ -1,3 +1,6 @@
+"
+More comments are good comments
+"
 Class {
 	#name : #Counter,
 	#superclass : #Object,
@@ -7,9 +10,9 @@ Class {
 	#category : #TGCounter
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 Counter >> countValue [
-	^ count
+	^count
 ]
 
 { #category : #accessing }
@@ -19,7 +22,7 @@ Counter >> decrement [
 
 { #category : #accessing }
 Counter >> increment [ 
-	count := count + 1.
+	^count := count + 1.
 	
 ]
 
